@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificador de Idade</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <section>
+        <div>
+<label for="iano">Ano de nascimento: </label>
+<input type="number" name="txtano" id="iano">
+<fieldset><legend>Sexo</legend>
+    <input type="radio" name="radsex" id="masc">
+    <label for="masc">Masculino</label>
+    <input type="radio" name="radsex" id="femi">
+    <label for="femi">Feminino</label>
+</fieldset>
+<input type="button" value="Verificar" onclick='verificar()'>
+        </div>
+        <div id="res">
+<p>Preencha os dados acima para ver os resultados</p>
+        </div>
+    </section>
+    <footer>
+        <p>Desenvovido por Célio Gomes baseado em exercícios do Curso em Vídeo &copy;</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
